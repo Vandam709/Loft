@@ -5,15 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShopMag.Pages"
         mc:Ignorable="d"
-                WindowStartupLocation="CenterScreen"
+        WindowStartupLocation="CenterScreen"
 
-        Title="SbrosParoyla" Height="800" Width="360">
+        Title="SbrosParoyla" Height="800" Width="360"  ResizeMode="NoResize" >
     
     <Window.Background>
         <ImageBrush ImageSource="/Resoruces/зелёный.jpg" />
-
-
-
     </Window.Background>
     <Grid >
 

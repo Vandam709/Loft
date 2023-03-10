@@ -15,20 +15,7 @@ namespace ShopMag.Models
     [Serializable]
     internal class UnintentionalCodeFirstException : Exception
     {
-        public UnintentionalCodeFirstException()
-        {
-        }
-
-        public UnintentionalCodeFirstException(string message) : base(message)
-        {
-        }
-
-        public UnintentionalCodeFirstException(string message, Exception innerException) : base(message, innerException)
-        {
-        }
-
-        protected UnintentionalCodeFirstException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
-        }
+      
+        
     }
 }
